@@ -1,0 +1,207 @@
+[33md198abc5fbd6f59eba6e6bb486f42c5e2d34865f[m !4 添加management.security.enabled = false Merge pull request !4 from 周立/Edgware
+[33m14048eabb3d28577a272904468b11dd53ef82f98[m 得加上 management:   security:     enabled: false 否则刷新不了
+[33m4000e263969079aa0dfd716366c29cd62c1f0734[m Merge pull request #7 from itmuch/Edgware
+[33m24483dbba4ba109cd33ca80142a37f6f3bacee53[m fixbug config server加解密必须把encrypt.*存放在bootstrap.*中
+[33m4e9c428720b84f87b1c2cc2219fb3c380769b662[m 修改readme Merge pull request from 周立/Edgware
+[33mf04e48085149b4d0306952e8f457b23fee21b0df[m readme
+[33m2b94a8abbaf207654bdae4cced49b768b554d736[m 第二版 Merge pull request from 周立/Edgware
+[33mbff92a1407722474b02377cfdb7299dba2f495f4[m README
+[33m034f6ed68139f7c0ea2dedababfc3909e6d842bd[m !1 第二版 Merge pull request !1 from 周立/Edgware
+[33mfa2148a0710cad12bc35f0d9cb2bb51b2b58a11c[m README
+[33mb07d2b4019914bfc16de1b2bc64d54cf6d5d16da[m 修改QQ群
+[33m311aab3b76360b99afa9352065282d38bf191ef8[m 更新QQ群、新建Edgware分支
+[33m9dd6673c09c4668f3bab99b67a9e8343a04b59c2[m 改进
+[33m1b4ca8daec2b0f18742c4dfb31b55833a3e30b14[m eureka ha 简写方式
+[33meff8f224a8c569b75a7ee1a5023af3c2a90310ac[m 使用elasticsearch 作为zipkin的存储
+[33mf4141f0588f6e1c0a186f5d1b75d975c5a89b8c3[m 拼写错误
+[33m5644358acb83c35692ef81b3cc8349b5047f33d7[m 改名
+[33m6f1bc4a446bff2bd706577416990f5ed4feb7454[m sleuth 整合zipkin，使用mq方式收集数据。
+[33mf61d9712c004fa94d21420a3ff60dd37847877f4[m sleuth 从eureka server找到zipkin
+[33m6c455c75327ec82b4bb7d06c58f2e68ccea3664b[m 1. 设置management.security.enabled=false 2. 添加本地转发的例子
+[33m776cef2a83e466fb581bdde9421fa6dcd60219ac[m 添加feign.hystrix.enabled=true，否则默认hystrix不开启。
+[33m65852e7623d9c245c2616d4f5616da04dd556ba6[m 关闭actuator的安全
+[33md5b58f530421b891ce20d4f3d088711c5f8534ca[m 关闭acturtor的安全
+[33mde7f449f20a9b2d14262a8b0596920f3e6912770[m zuul fallback
+[33m81b47aa835089873b9e7bb74f43e69320c6aa095[m 修正eureka server需要认证的配置
+[33maf274afff1f1a0e01733f08e4cde86e3b458b279[m spring-cloud-starter-zuul --> spring-cloud-starter-netflix-zuul
+[33m7cbaf8be4cc05a1fd1a48acd1516c8b508c64ecb[m spring-cloud-starter-feign   ---> spring-cloud-starter-openfeign
+[33m769025c5ed4bf671ec9c116a725341b67137f1a7[m spring-cloud-starter-turbine  ---->   spring-cloud-starter-netflix-turbine
+[33m5face7901ceaca884684d03b62ee357ef31bbcdc[m spring-cloud-starter-turbine-stream --> spring-cloud-starter-netflix-turbine-stream
+[33m6022c137c8fbd05b5bdbe4eca2d3f9ffc7026fee[m spring-cloud-starter-hystrix —> spring-cloud-starter-netflix-hystrix
+[33mb8a0b676d0f6019fd66a58e355c6fb8428d97dbd[m spring-cloud-starter-ribbon   —> spring-cloud-starter-netflix-ribbon
+[33me1b84fdc04e9fca61aaebdb3d5682dbfe8f9f3d0[m spring-cloud-starter-eureka —> spring-cloud-starter-netflix-eureka-client
+[33m525815580a2a6435aae64096f6d4ac699e2e54b4[m spring-cloud-starter-eureka-server   ----->   spring-cloud-starter-netflix-eureka-server
+[33m14c998db76aa750e72f4c4b8b4116ab17100bc77[m zuul的回退 升级到edgware.release的写法。
+[33mef5b2501f07c7f876e2257938cff85570e585a5d[m 升级到Edgware.RELEASE
+[33mc52d113288fa73ef06744155605889ca3553a121[m Merge branch 'master' of https://github.com/itmuch/spring-cloud-docker-microservice-book-code
+[33ma0fe27a3217b6cbbf07b4b49b06b0fe5bcd624f8[m 重命名
+[33m34f805f20f045fb548b7828bba9d24f09eed634f[m Merge pull request #1 from iamzhout/patch-1
+[33md2b152e1c814191e8cea194909eae2119a897289[m fix description of spring4all community name
+[33m3647f4fc95bf023bc173fc575fd87fc74bbfe7af[m Readme
+[33m154b3a587d22e287b9b4551a64922022adb254d8[m fix
+[33m7679ccd66ff6b9b949694260a9effc995b79fc44[m Fix
+[33m9455192a56a1e73c4ca314a2eb8d248e880856cd[m fixbug 应用名称错误
+[33m3d7c8753892601ccbdd1b07bb7e138771c95e1dd[m 补充如果使用dalston的注意点。
+[33me357bdc9c5adff42d80c390159026d9491203b3b[m 补充两个示例。
+[33m668a24a7c94335614254efde2912c4b25790724f[m 更新readme，添加新的qq群
+[33mfb471fa72e4aea78e2f6597ed7e5c99fbd2996ec[m 补充购书链接
+[33mf3c17456eb696abf40153cd4fa9b7444c9197713[m 使用Zuul与RxJava聚合微服务
+[33med956da78e1458b6326d9cc6e851354bb4c83e34[m 修正乱码问题，感谢爪哇小贩 勘误，ref：http://forum.spring.io/forum/spring-projects/web-services/123274-resttemplate-is-changing-the-utf-8-charater-to-junk-value
+[33mf741d65655fbfa6bbff5326ce9a5ea040f8ba085[m 更新说明
+[33m547de2ee31545f148756780edd90ded70d241ba0[m 方便使用IDEA的朋友，弄个父pom
+[33m529eb279031d1a38319375a3dc93ebf371199006[m 弄个parent项目，方便使用IDEA的朋友
+[33m80a7bfde5f7f83dbee82502323a29d8fc8bf8eb0[m readme
+[33m020d286c48a459d21f6eec798eb0d57af7441620[m 协议
+[33mda5ba91cbf6e5d44f4be2d10d6dbf83baf3d1efb[m boot-1.4.3,cloud-camden.sr4
+[33m98ae5ba6c68eb851013e2cd384888d179eb3a64f[m 删除无用依赖。
+[33mfa577d66eecd0f9575fc6ec24712d03ab12331ad[m turbine使用MQ收集监控数据    turbine stream
+[33m448b88ff375536bc31fc981160c506132af1d763[m sleuth整合ELK
+[33m64045ee133a38b88e53dc9084120c3eecdde3e9b[m zipkin server使用elastic作为后端存储
+[33mf9464fc1472fa777dddf298ca5460c023dc30b37[m 使用消息中间件 收集跟踪数据
+[33mfacbdec6c887c57796f18337bab8baa976991ec3[m 整合zipkin
+[33m464f5f2c7f41bac458d6b7907e7648f9acb05879[m review
+[33m2f1ee3f71e145c3938e6a54313a335eed6eda95d[m 跟踪
+[33md21a1a96e33c1be98d4ab0dd2f07f31b91987295[m 最简单的服务消费者
+[33m356688f064b7ff0405f6f1ec8d021516813d1545[m 最基础的服务消费者
+[33m098875e6a40723d89b3f05a97d315acb12dc928c[m info端点测试
+[33md0e9e5e7c0b6b2a5ffaf93d157f61985a4955f82[m git ---> Git
+[33m09eeac47c022a052fd1ded4f97b1f72107db2245[m 排版
+[33m9276f1a2e371e12589851d00af00eef628429ca8[m 校对 语病
+[33mf6b121ee63eb05c610ccfb90544eb3a5a0e55bba[m NodeJS ===> Node.js
+[33m51da7bfd00cff81e28192026adecb8395c923991[m review
+[33mf801bc84b5c2bad76f24ebce5012f012add0ef66[m review
+[33ma99dbf7771abf0ea0b7420af9cd53e770ec58db5[m 勘误
+[33mb913048d7fc60a9ad43e66b544f6677beaf62ad2[m 修改错别字
+[33m1198e1f0f345d003e74bad06c917267bbff33ce4[m FallbackFactory fixbug
+[33m89772d4a185d61bd65c07961b982ea29e3940fdc[m Merge branch 'master' of https://git.oschina.net/itmuch/spring-cloud-docker-microservice-book-code
+[33m4dacdff7399c81bce8d01484cb225c5426ac8376[m 使用feign 构造多参数的请求
+[33m898adb7f81696cb83b9a98b0d07db213773e24e5[m 指定注册到Eureka Server的IP地址
+[33mee6542ebca00aa6fd2abcd14c48ef79aecf7155a[m 勘误
+[33m91db0f58bed9c0995ad45f33288fe5b6e332b149[m 迁移docker章节代码
+[33mf5ca8ae94bf6b39d11706e22eadd97729e23008c[m 勘误
+[33m1bc21f3a91ca3f91fdfdf355ab20bc5aa1c7a982[m 勘误
+[33m211b1633a5c397be25ba591cf573f0512aa957c4[m 添加注释
+[33mcf4fcda65c15aadcebf40b12b319a36f92330096[m docker-1/docker-compose.yml
+[33m43d861e00263d685af2d6d1cdec4af91a941481c[m 修改eureka server地址
+[33mc69b993ac1ea2bcf36be339373967523cdb3623f[m docker-1
+[33mbb740f11a58eaf7d134975c7d7e21fdfb98817a9[m host网络模式，docker-compose
+[33mb05af6bc7838702bccba8deadc1c16155c9be536[m docker-compose.yml
+[33m343cefa91d0cfa53029b75ad44df60f3cf6316fb[m fix
+[33m83cc85f14a1a4ba8dd763d24ab244ebf6e02b6bd[m docker-compose.yml
+[33m5809aa453a84474815cefd8427bbad84b20decc4[m docker-compose.yml
+[33md92e950be2d8d56510392ada70920ac0b8692c99[m docker-compose.yml
+[33m8001ebb264354f7c2931377c2b3e0add8bdf1221[m fix
+[33m77730d2fe5d62e01d0d7ea8311c85d9d83f52975[m fx
+[33m0f658bb9c211c9c7d291c41a51e8d7954234b5aa[m docker-compose-wrong.yml
+[33m027a722dc6402c40da4dd637fa990f2a644636a9[m docker-compose.yml
+[33m977d23d444fe05cdaf01b5b230a8400f11761763[m 1
+[33mac536c0bf6357c1d389c2c6ba7146d9969328a20[m 修改插件配置
+[33m4e6e17cceaf7ee9fe0fc7a9a46024db4656a7405[m 修改eureka.clietn.serviceUrl.defautlZone的值
+[33mc34fcab9046dbf9e4d9d2bc605021ab41adc3123[m init
+[33md3ec9ae6492101f8aa42aa2a16749d2cfecef621[m 修正描述
+[33mea6f21c435f0cd418196a1ee211777129e432779[m 修改文件名
+[33m083efcc3ef08b5243a1e9407667eea810cbccdba[m host网络模式
+[33mee44c7e90e41ae66f7984a6619208d303719e1d1[m 修正
+[33m0299c0948bb47182919ab2cd14ea973519bf39db[m 1
+[33m3354ca14793a8c8a55a6307d95a4ebcd7c9b7ecd[m docker-compose.yml
+[33mf4d18e794d63b07a13eb2f872c6d9857f040e7da[m docker-compose.yml
+[33m8d8afc8c17f226f11b53a9f607d20f7a7c278c76[m 3
+[33mad11ca907461e87260171d71186b17436ee1cb3b[m 3
+[33m1b686f07ccb0841a58f6c6bc31c8d920b3ac788d[m pom
+[33m4073fbb3bfd074e8173f5b84dfdb0effe86916dd[m 2
+[33meb24c75089f3966b47172300476c79645d60ac14[m 1
+[33m26e2e9e50e9d3bf67d19a15057a8a1f0b9c776f6[m 添加maven的docker插件
+[33mcc8aa53415cfb44fc99871813de9765c0dec840c[m 为插件添加maven的docker插件
+[33mdbf1791b114676c0ccc201038682f9940bc2ec17[m docker-compose
+[33m8cb41f9eb4296433fdc536b511cf2d40043df2f4[m 恢复配置
+[33mf9a52e5ca281f471917bb004a63605e97cc5a282[m 注释
+[33mecfbd3607ed01e4c51a3caef8712f360945f6ca1[m 添加demo
+[33m3a416b809814a3a062c33a3d2e91a9b842f6fd33[m 修正
+[33m81f118dddc54749b27d567e5121d371f2dd5ed42[m 删除无用段落
+[33mc258f841d0b2fa1bdb67b8e05f9e7cbef4c59c50[m 修正
+[33m792263a4d8137351249ac329a51c88b4146dd0d5[m bak
+[33m0bec4cdad21dbef9cf256752e3c722022715c927[m 调整
+[33m16986ab1280cd0d0a677cb5b377f40b1c577955c[m 修正
+[33m859a86e65c9e1ac417e605d9eddf7318ac008bb2[m 绑定某个phase
+[33m159960784a8e79f47bb939afb14b3ab4e43f7732[m 修正
+[33m146bd717b80380035d206c300404ba386f70eb16[m 完善
+[33mf85ce409882dc88ef33eaef185471d71f5cd9a17[m 修正
+[33m45ce0425e432a27825cb1013dce48476bd1f3d39[m 修正
+[33m8ee4d16d5e130c6c91e0444d0fafce781b647212[m docker章节
+[33maee681d29dfec4122740bab42b790fe6928135ad[m config server 整合cloud bus
+[33m49054cd3f289a47bfbeffe1b7857999a1e8d7870[m 端口
+[33m1f852280d2011bdff09c3ef27cf1a781ec764d6f[m config server 利用cloud bus 刷新配置修改
+[33m08faf45cecbb78b62cf52e97fbded4cd9217b071[m config client 刷新配置
+[33m9fc234b75bfd423f3f57ad2300c690b1532afe5b[m config server注册到eureka上，同时需要用户认证
+[33m796fe0aaed27a65b9bb7170b26472a0b69de684c[m config client连接需要用户认证的config server
+[33m8164d3c0ce048270ce247cfecc8b34395f552eed[m config server 认证
+[33m91a861b824ff6f8712a6a35a556d61bf4c925e7d[m Cloud Config 与 Eureka联合使用。
+[33mfa2cb7853409515ad1a9403a8975851b937a8233[m cloud config 与 eureka server联合使用。
+[33m2d0c700c534018fc5eb36a57804d684ac778dcf3[m config server的加解密 对称/非对称
+[33m354ead618e5108186d8c6e30f19cc0f3eb6c97e6[m git.uri 各种姿势
+[33m6905e9e84908021b057080d7a78723db628d097b[m 占位符
+[33m612a1b3b98d86f5342ba64f26b0248173bebc28a[m config server的健康检查
+[33m93b62c99e299ea3f9337316537a4319fd643cea4[m 配置文件分离
+[33md963c805758f7c7425dd21e2c550d67b625909b9[m config-client
+[33m1c65b778ec17f24b77e86f69e403214a8ece39da[m 修改端口
+[33m19c78aaf4321fb8c73278e1f1a5d2111873c9568[m 修改 config server端口
+[33mdd31a4832492dada71441adc77f83f601d9fd265[m config client
+[33m8c8bd90836f9d1fd8420f2527a84635c551582ee[m cofig client
+[33maff99099eb192b0b3367af711e8c1368bae3c5b0[m 缩进
+[33mb10f3cc545e520a0459729d13a57a6cc666e14fe[m config client
+[33m42a106ba4b025ae4869557c95857804da693cffb[m config server
+[33m71fe72f09f16364039a428ba41b955169121839e[m 使用ribbon、sidecar调用非jvm微服务接口的demo
+[33m612a9442cae9ea84f996589e6b0181cbf1bbf5e6[m sidecar demo
+[33m133bea5cb47e443c07cb7bbc9180e57a268a8082[m 通过sidecar 请求异构系统demo
+[33mbfc54845a90a39e2710c78b71cb8f838e63ef023[m node-app ---> node-service
+[33mf86fd463c124457a6f6fe424335c08a3436dda0e[m Merge branch 'master' of https://git.oschina.net/itmuch/spring-cloud-docker-microservice-book-code
+[33m86691417b979a6a8d469a72b45c2ffcea15496ff[m node-app.js
+[33m206917061596a0c54971677784e2cf0fbaa0e4fd[m zuul的路由映射 修改DEMO
+[33ma008c179d58dbcc45521694a76199e00d14e0b1a[m zuul fallback
+[33m7e34b0a61181298f6746fc9a148c225ed20647d5[m zuul filter groovy
+[33m73f3313a1142ff9265ba79d60e0a3ddebd6ac5d8[m 重命名zuul过滤器
+[33m4c05958350359b1651042f4cfd30fdab3db222e1[m zuul filter
+[33m4dfe14524e1953763b8b9c7860c719971ff5f22c[m zuul的大文件上传
+[33md5c5624214f525326ed6c479f489e4aea227a5b6[m 添加示例，修正bug
+[33md4483d89cff08a5f2c0e1a3e87f887e5a0af5fd5[m 使用正则 指定zuul的路由匹配规则
+[33m84bcfac9d22dc26730adda2a77a1d3cc81f1cdef[m zuul 添加prefer-ip-address = true  保持一致。
+[33mb1085366649f8d138500f85646effb8212173356[m zuul多个路由示例
+[33m3f3d92ccd96c951ebc416987e358f02ee2e772e3[m zuul基础示例
+[33ma3e6440f24bb7fc9aefc41e10703fa80156fe680[m zuul
+[33mfeac413cbff12b3cb0f17f4ac5da24c9d7529eec[m 修正bug
+[33m52e7b3932e9ad608fbc0472e54119107ab21b132[m turbine 测试
+[33mf719d4a7a75afb2ce1eec853d5ad9b96b91605c8[m feign 整合hystrix.stream
+[33m873d706c93fe2bc5a1391705f20fcc9f840965c4[m 修改artifactId
+[33m8bffef320ca59e2350951e964661d64dcd322474[m turbine
+[33m9a4619682d13c30fb50391a865bdb34ab21feffb[m Hystrix Dashboard
+[33m883372fee0124b13156cc6fa7d87fbb7dced7cd1[m pom.xml 升级spring boot/spring cloud 版本至最新
+[33m99d7ffd33afe11cff00312b82eaf4de12e6799f3[m feign hystrix factory
+[33m550f35e6688d01d595f9f32657d0a2ca259fa4e9[m feign fallback
+[33mc16e197e653fff869b937dae5b75c5b98ebc1f6e[m feign 整合 hystrix
+[33mc1bc3c66d1bc03099d0d559a1dca700adcb346a2[m feign 手动创建
+[33me42e25b9041a454ad6cd87bd2add359225dffdc6[m 修改病句
+[33m2b3703bcf345e7bebc68787ccac6a7366b4a94bc[m ribbon with hystrix
+[33mec699dc25323aad0a285c2407db7b7222a0c5cfc[m Feign 的日志
+[33mdbe48228814a6d7ff2fcbca3e32cd9762163d12c[m 手动创建Feign Client
+[33m14d79ba30f671655990f1eb8d1948a18b9889c99[m 需认证的用户微服务
+[33m03bf723d9f1421431092413a7fcde6e93161c294[m 删除掉配置文件中不应该有的配置
+[33me54b8ec364dc9f912ed7a185545ab8263cd9b826[m 将驼峰命名 改成-命名
+[33mbca153e0f788b393788814c043d476ec4c7f3caf[m 理解eureka的元数据
+[33mf3def5f6619c5c4c5ed4dcfc978e2ac9dc2fa885[m 添加prefer-ip-address = true
+[33m29712d2cc3f9307a59febce342762c399c03000e[m 需要认证的eureka server
+[33m62cea2c3850bbb1d0c4920a97b76ad4a9616c8a1[m 添加认证、ha的配置
+[33m57f65b8fb57432a2860cd5aa8c502c268751ddb0[m 编写一个服务提供者
+[33m5bd1f47a483eebc9a92ac8139411608cc9352d19[m eureka ha
+[33m0ae94d94569a737c56975554b35d34d5f76cc75b[m 提供者 with http basic 认证
+[33m81e36f0475c4a2602c52c6432efb63f0f691e69e[m 自定义feign的配置
+[33mccf92167525d5ffc6405f12ff68cc5ec223d2761[m feign
+[33mf4e7e6e950b3d57fa31ea38e7d89b1f77fe975b4[m ribbon 脱离eureka使用
+[33mb091a8355291496a71a4a7bd6be8ccefcc6a97f8[m 脱离eureka 使用ribbon
+[33m5f549adabc973152b53299b39ae2e1e44dc77988[m ribbon without eureka
+[33m9d9b7583d8a95f0b078e8be61015babd5f2806e0[m 用户微服务 最简单的示例
+[33m842cfafe96a51ff32047ed7024ce229e1384f01c[m 使用配置文件自定义ribbon
+[33ma781d21c9ccbd675a533ada4db23f017630f06a6[m 添加注释。
+[33m9afaed46efd02a574a9a5d74609ce85bc60f98ee[m 使用java代码配置ribbon
+[33m4808b69be4ea0c1053ffc974e0bf1da86bcf4762[m movie ribbon
+[33m52674e9d68b8bdb23ee9b220284e46d7b2246a56[m 将应用注册到了eureka上。
+[33mca8ca36158b4a9554442ca5d7bc918efac1dcd69[m init
